@@ -1,6 +1,6 @@
 +++
 showonlyimage = true
-draft = true
+draft = false
 image = "coverArtComingSoon_300_ppi.jpg"
 date = {{ .Date }}
 title = "  "
