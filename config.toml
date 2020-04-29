@@ -1,4 +1,4 @@
-
+baseUrl = "/"
 title = "Tweets From Heaven"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
