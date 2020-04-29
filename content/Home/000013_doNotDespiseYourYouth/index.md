@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "img/portfolio/a4-paper.jpg"
+image = "coverArtComingSoon_300_ppi.jpg"
 date = "2019-12-07T18:25:22+05:30"
 title = "You Are Not Too Young!"
 weight = 0

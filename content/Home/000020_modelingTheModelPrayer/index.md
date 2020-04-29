@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-image = "img/portfolio/a4-paper.jpg"
+image = "coverArtComingSoon_300_ppi.jpg"
 date = "2020-01-29T18:25:22+05:30"
 title = "Living the 'Our Father' Prayer Everyday"
 weight = 0
