@@ -1,0 +1,8 @@
++++
+showonlyimage = true
+draft = false
+image = "img/portfolio/a4-paper.jpg"
+date = "2019-11-26T18:25:22+05:30"
+title = "How Do I Put on the Garment of Praise?"
+weight = 0
++++
