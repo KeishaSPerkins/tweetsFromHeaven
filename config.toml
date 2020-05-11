@@ -46,9 +46,9 @@ publishDir = "docs"
   url = "home/"
   home = true
 
-  # [[params.navlinks]]
-  # name = "About"
-  # url = "about/"
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
 
   # [[params.navlinks]]
   # name = "Get in touch"

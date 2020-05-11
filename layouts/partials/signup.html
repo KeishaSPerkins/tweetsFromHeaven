@@ -1,0 +1,73 @@
+<section id="sign-up" class="sign-up open">
+	<p class="description">Want to get more Tweets From Heaven sent to your inbox? Sign up for the mailing list.</p>
+	<META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+	<form action='https://crm.zoho.com/crm/WebToContactForm' name=WebToContacts2839904000001969001 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory2839904000001969001()' accept-charset='UTF-8'>
+	  <input type='text' style='display:none;' name='xnQsjsdp' value='ecf974c34017af3b65344291f5120bc36ecd35d68d5f1a95bd7b6b6d3e8c6156'></input>
+	  <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+	  <input type='text' style='display:none;' name='xmIwtLD' value='09bf2436878f8cab0fee5fc5da6caabc4d0916aa7c97c3ab757716673859a262'></input>
+	  <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='></input>
+	  <input type='text' style='display:none;' name='returnURL' value='{{ .Page.Permalink }}'> </input>
+
+
+		<label for="Name">Name</label>
+	  <input type='text' style='box-sizing:border-box;' maxlength='80'  id='Name' name='Last Name'   />
+	  <label for="Email">Email</label>
+	  <input type='text' style='box-sizing:border-box;' maxlength='100' id='Email'  name='Email'  />
+	  <input type='text' style='box-sizing:border-box;'  maxlength='50' name='Department' hidden value='TFH'></input>
+	  <input style='margin-right: 5px;cursor: pointer;font-size:12px;color:#000000' id='formsubmit' type='submit' value='Submit'>
+	  </input> 
+
+	  <script>
+      var mndFileds = new Array('Last Name', 'Email');
+      var fldLangVal = new Array('Last Name', 'Email');
+      var name = '';
+      var email = '';
+
+      function checkMandatory2839904000001969001() {
+        for (i = 0; i < mndFileds.length; i++) {
+          var fieldObj = document.forms['WebToContacts2839904000001969001'][mndFileds[i]];
+          if (fieldObj) {
+            if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+              if (fieldObj.type == 'file') {
+                alert('Please select a file to upload.');
+                fieldObj.focus();
+                return false;
+              }
+              alert(fldLangVal[i] + ' cannot be empty.');
+              fieldObj.focus();
+              return false;
+            } else if (fieldObj.nodeName == 'SELECT') {
+              if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                alert(fldLangVal[i] + ' cannot be none.');
+                fieldObj.focus();
+                return false;
+              }
+            } else if (fieldObj.type == 'checkbox') {
+              if (fieldObj.checked == false) {
+                alert('Please accept  ' + fldLangVal[i]);
+                fieldObj.focus();
+                return false;
+              }
+            }
+            try {
+              if (fieldObj.name == 'Last Name') {
+                name = fieldObj.value;
+              }
+            } catch (e) {}
+          }
+        }
+        document.getElementById('formsubmit').disabled = true;
+      }
+    </script>
+	</form>
+</section>
+
+
+
+
+
+
+
+
+
+    

@@ -1,21 +1,16 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "About me"
+title = "About Tweets From Heaven"
 +++
 
-An sincerity so extremity he additions. Her yet **there truth merit**. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.
+{{< image figureWrapper="false" class="about-image img-responsive" resize="true"  name="logo.png" alt="Logo For Tweets From Heaven" >}} 
 
-Received overcame oh sensible so at an. Formed do change merely to county it. **Am separate contempt** domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.
+## Tweets From Heaven
+Tweets From Heaven is an attempt to make the Bible more approachable and explain how it can apply to our everyday lives. Tweets From Heaven operates on the promise that when Christ is lifted, people are drawn from all around. Starting in 2019, it may be young, but is already reaching and teaching people about the treasures found in God's Word.
 
-![This is me][1]
+Whether you are new to the Bible or have been reading it for years, our prayer is that you find something meaningful and useful here. The Bible is alive and can bring life to you. 
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+{{< image figureWrapper="false" class="about-image img-responsive" resize="true"  name="headshot.jpg" alt="Picture of Keisha S Perkins" >}}
 
-#### Education
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then
-
-[1]: /img/about.jpg
+## Keisha S Perkins
+Keisha S Perkins, creator of Tweets From Heaven, has a passion for teaching, especially for teaching about Jesus. By listening for direction on what and when to create lessons, she is able to produce topical and relevant messages that develop the people around her.

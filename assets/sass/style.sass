@@ -1,11 +1,129 @@
-.sidebar-heading
-	display: flex
-	align-items: center
+$purple: #753D97
+$teal: #36BBA2
+$gold: #FFD700
 
-	a
-		// margin-left: 5px
-	img
-		width: 4rem
-		height: 4rem
+
+// ----------------------
+// Main
+// ----------------------
+body
+	background-color: #f4f4f4
+.content-column
+	padding-bottom: 5rem
+
+
+// ----------------------
+// Typography
+// ----------------------	
+h1, h2, h3, h4,h5,h6
+	color: #444
+
+// ----------------------
+// Sidebar
+// ----------------------
+#sidebar
+	.sidebar-heading
+		display: flex
+		align-items: center
+		a
+			// margin-left: 5px
+		img
+			width: 4rem
+			height: 4rem
+			border-radius: 50%
+			margin: 5px !important
+	.sign-up
+		background: $purple
+		color: white
+		display: flex
+		flex-flow: column wrap
+		height: 0
+		padding: 0
+		opacity: 0
+		overflow: hidden
+		transition: opacity .3s ease
+		&.open
+			height: auto
+			opacity: 1
+		.description, form
+			padding: 10px
+			margin: 0
+		.description
+			font-size: 1.2rem
+		form 
+			label
+				color: white
+				font-size: 1rem
+				margin: 0
+			input
+				margin: 10px
+				border: 0
+				background: white
+				margin: 5px
+				margin-left: 0
+				background: rgba(255, 255, 255, 90%)
+				color: #333
+				&[type="text"]
+					width: 90%
+
+				&[type="submit"]
+					background: $gold
+					font-size: 1.2rem
+
+// ----------------------
+// Footer
+// ----------------------
+.main-footer
+	background-color: #f4f4f4
+	font-size: .8rem
+	font-weight: 400
+	text-align: center
+	position: fixed
+	color: #999999
+	bottom: 0
+	right: 0
+	left: 0
+	padding: 1rem
+	.copyright .credit 
+		margin: 0
+		margin-bottom: 0
+		padding: 0
+
+
+// ----------------------
+// About Page
+// ----------------------
+.about
+	.content-column-content
+		margin: auto
+		width: 90%
+		margin: auto
+		max-width: 800px
+	.about-image
+		width: 50%
+		max-width: 200px
 		border-radius: 50%
-		margin: 5px !important
+		margin: 1rem
+		border: 5px solid $teal
+		shape-outside: circle(50%)
+		&:nth-of-type(odd)
+			float: left
+			border: 5px solid $purple
+		&:nth-of-type(even)
+			float: right
+			border: 5px solid $teal
+
+// ----------------------
+// Single
+// ----------------------
+
+.single
+	.content-column-content
+		margin: auto
+		width: 90%
+		margin: auto
+		max-width: 800px
+
+
+
+

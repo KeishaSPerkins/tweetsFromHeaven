@@ -1,5 +1,5 @@
-<div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
-  <div class="sidebar-content">
+<section id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <article class="sidebar-content">
     <h1 class="sidebar-heading">
       <img src="/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_72_ppi.png" alt="">
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
@@ -12,14 +12,8 @@
       {{ end }}
     </ul>
     {{ partial "social_buttons_in_sidebar.html" . }}
+    {{ partial "signup.html" .}}
 
-    <div class="copyright">
-      <p class="credit">
-        {{ with .Site.Params.copyright }}
-          {{ . | safeHTML }} |
-        {{ end }}
-        {{ partial "attribution.html" . }}
-      </p>
-    </div>
-  </div>
-</div>
+    
+  </article>
+</section>
