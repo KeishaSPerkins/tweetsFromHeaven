@@ -8,7 +8,7 @@ weight = 0
 +++
 
 ## Identities Under Attack
-Sometimes, our identities are called into question or even outright attacked. We'll look to "The Three Hebrew Boys" to find an example of what it looks like to withstand an attack on who we are.
+Sometimes, our identities are called into question or even outright attacked. We'll look to the "Three Hebrew Boys" to find an example of what it looks like to withstand an attack on who we are.
 {{< youtube DmtW7M25nKM >}}
 
 The story of the Three Hebrew Boys may be familiar to you. These three young men were thrown into a large furnace as punishment for refusing to worship a statue of the king. <sup><a class="footnote-reference" id='footnote-a-reference' href='#footnote-a'>a</a></sup> The story ends with them coming out the furnace unburned, but what we're focusing on today is detailed two chapters before, in Daniel chapter 1.
