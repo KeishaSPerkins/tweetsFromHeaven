@@ -10,6 +10,9 @@ body
 	background-color: #f4f4f4
 .content-column
 	padding-bottom: 5rem
+	p
+		color: #666666
+	
 
 
 // ----------------------
@@ -17,6 +20,14 @@ body
 // ----------------------	
 h1, h2, h3, h4,h5,h6
 	color: #444
+.footnote-reference
+	font-weight: bold
+.footnotes
+  list-style-type: lower-alpha
+  .footnote
+    font-size: 1rem
+    .go-back-link
+      color: #666666
 
 // ----------------------
 // Sidebar
@@ -117,13 +128,42 @@ h1, h2, h3, h4,h5,h6
 // Single
 // ----------------------
 
-.single
+.page
+	h1, h2, h3, h4, h5, h6
+		color: $teal
 	.content-column-content
-		margin: auto
-		width: 90%
-		margin: auto
-		max-width: 800px
-
-
+		margin: auto !important
+		width: 90% !important
+		margin: auto !important
+		max-width: 800px  !important
+		.main-title
+			color: #333333
+		.video-wrapper
+			display: flex
+			justify-content: center
+			align-items: center
+		.instagram-media
+			margin: auto !important
+			max-width: 500px !important
+		.bible-text
+			background: lighten($purple, 50% )
+			padding: 15px
+			margin: 0 0 2rem 0
+			.versenum
+				font-weight: bold
+				color: $purple
+			p.bible-reference
+				font-weight: bold
+				font-size: 1.5rem !important
+				text-transform: uppercase
+				padding: 0
+				margin: 0 20px 0 0
+				text-align: right
+				font-style: italic
+				color: $purple
+				&::before
+					content: "-- "
+			p
+				margin: 0
 
 
