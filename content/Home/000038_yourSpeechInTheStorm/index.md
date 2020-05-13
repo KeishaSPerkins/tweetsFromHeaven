@@ -2,7 +2,7 @@
 showonlyimage = true
 draft = false
 image = "coverArtComingSoon_300_ppi.jpg"
-date = 2020-05-12T11:56:51-05:00
+date = 2020-03-17T11:56:51-05:00
 title = "Your Speech in the Storm"
 weight = 0
 +++
