@@ -67,5 +67,5 @@ publishDir = "docs"
   #whatsapp      = "wa.me service link"
   
   [frontmatter]
-  date = ["date", "publishDate", "lastmod"]
+  date = ["date", "publishDate"]
   lastmod = [":git", "lastmod", "date", "publishDate"]

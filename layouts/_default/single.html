@@ -5,8 +5,8 @@
       <div class="content-inner">
       	<div class="content-column-content">
           <section class="post-info">
-            Posted on {{ dateFormat "January 2, 2006" .PublishDate}} 
-            {{if ne .PublishDate .Lastmod}} and updated on {{dateFormat "January 2, 2006" .Lastmod}}{{end}}
+            Posted on {{ dateFormat "January 2, 2006" .Date}} 
+            {{if ne .Date .Lastmod}} and updated on {{dateFormat "January 2, 2006" .Lastmod}}{{end}}
           </section>
          <h1 class="main-title">{{ .Title }}</h1>
          
