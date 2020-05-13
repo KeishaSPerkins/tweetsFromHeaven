@@ -4,7 +4,12 @@
   <div class="row">
       <div class="content-inner">
       	<div class="content-column-content">
+          <section class="post-info">
+            Posted on {{ dateFormat "January 2, 2006" .PublishDate}} 
+            {{if ne .PublishDate .Lastmod}} and updated on {{dateFormat "January 2, 2006" .Lastmod}}{{end}}
+          </section>
          <h1 class="main-title">{{ .Title }}</h1>
+         
          {{ .Content }}
          <hr>
          {{ template "_internal/disqus.html" . }}
