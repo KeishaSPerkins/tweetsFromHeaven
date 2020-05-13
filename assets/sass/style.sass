@@ -186,12 +186,16 @@ h1, h2, h3, h4,h5,h6
 		text-transform: uppercase
 .bg_popup-content
 	background-color: white
+	line-height: 1.5
+	color: #666666
 	.bg_popup-content-bible
 		background: none
 		.bg_popup-copyright
 			color: #333
 		.bg_popup-more
-			color: $purple
+			color: $teal
+			&::before
+				content: "Read "
 .bg_popup-footer 
     background-image: none
     background-color: $purple
