@@ -65,3 +65,7 @@ publishDir = "docs"
   #github        = "full profile url in github"
   youtube       = "https://www.youtube.com/channel/UCBYOqM9-RY9bM6bGaqt8INw?view_as=subscriber"
   #whatsapp      = "wa.me service link"
+  
+  [frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
