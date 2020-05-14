@@ -15,7 +15,7 @@ publishDir = "docs"
   description = "Dive into the Bible"
   copyright = "&copy;2020 Tweets From Heaven"
   sidebarAbout = [
-    "At Tweets From Heaven, we lift Jesus and He draws us near&nbsp;<sup>(John 12:32)</sup>.<br><br> Tweets from Heaven is designed to make the Bible approachable and relatable in your everyday life."
+    "At Tweets From Heaven, we lift Jesus and He draws us near.&nbsp;<sup>(John 12:32)</sup><br><br> Tweets from Heaven is designed to make the Bible approachable and relatable in your everyday life."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a

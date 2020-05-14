@@ -38,9 +38,9 @@
                           <div class="box-masonry-description">
                             <p>
                                 {{ if .Description }}
-                                  {{ .Description }}
+                                  {{ .Description | safeHTML}}
                                 {{ else }}
-                                  {{ .Summary }}
+                                  {{ .Summary | safeHTML }}
                                 {{ end }}
                             </p>
                           </div>
