@@ -1,6 +1,7 @@
 +++
 showonlyimage = true
 draft = false
+contenttypes = ["slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-04-19T11:57:55-05:00
 title = "Raise the Standard"

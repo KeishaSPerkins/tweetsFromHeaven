@@ -1,6 +1,7 @@
 +++
 showonlyimage = true
 draft = false
+contenttypes = ["slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = "2020-02-05T18:25:22+05:30"
 title = "How to Handle Exile"

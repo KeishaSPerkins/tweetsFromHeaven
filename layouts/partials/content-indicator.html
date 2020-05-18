@@ -1,0 +1,9 @@
+  <ul class="content-indicators">
+  {{ with .Params.contenttypes}}
+    {{ range .}} 
+      <li class=" content-indicator {{.}} badge badge-secondary">
+        {{ . }}
+      </li> 
+    {{end}}
+  {{end}}    
+  </ul>

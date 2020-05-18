@@ -69,3 +69,8 @@ publishDir = "docs"
   [frontmatter]
   date = ["date", "publishDate"]
   lastmod = [":git", "lastmod", "date", "publishDate"]
+
+  [taxonomies]
+  category = "categories"
+  tag = "tags"
+  contenttype = "contenttypes"

@@ -1,6 +1,7 @@
 +++
 showonlyimage = true
 draft = false
+contenttypes = ["slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-03-19T11:57:39-05:00
 title = "Your Prayer in the Storm"

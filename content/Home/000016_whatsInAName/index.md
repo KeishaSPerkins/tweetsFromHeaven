@@ -6,6 +6,7 @@ lastmod = "2020-05-13T18:25:22+05:30"
 image = "coverArtComingSoon_300_ppi.jpg"
 title = "Change the Name, Change More?"
 weight = 0
+contenttypes = ["slides", "blog post", "video"]
 description = "Sometimes others assign labels to us that are fitting for our calling. But other times the labels are unkind, unfair, and plain untrue. Today, throw off the incorrect labels people have given you and embrace the name that God has given you in Christ. God calls you His child, a co-heir (Romans 8:14-17) to the throne! Be encouraged that He calls you by name because He knows and cares for you!"
 +++
 

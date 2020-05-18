@@ -1,6 +1,7 @@
 +++
 showonlyimage = true
 draft = false
+contenttypes = ["slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = "2019-12-11T18:25:22+05:30"
 title = "Taking Control of Your Thoughts!"
