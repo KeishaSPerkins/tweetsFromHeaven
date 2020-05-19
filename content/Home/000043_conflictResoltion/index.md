@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["slides"]
+contenttypes = ["slides", "blog post"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-04-22T11:58:25-05:00
 title = "Conflict Resolution: The Biblical Way"
