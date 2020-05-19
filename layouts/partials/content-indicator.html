@@ -1,7 +1,7 @@
   <ul class="content-indicators">
   {{ with .Params.contenttypes}}
-    {{ range .}} 
-      <li class=" content-indicator {{.}} badge badge-secondary">
+    {{ range sort . "value" "asc"}} 
+      <li class=" content-indicator {{.}} badge ">
         {{ . }}
       </li> 
     {{end}}
