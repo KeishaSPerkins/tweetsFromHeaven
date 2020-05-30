@@ -43,7 +43,7 @@ and he will lead you in every decision you make.
 
 It is when we trust God fully that we are able to let our businesses be guided by his omnipotent will.
 
-## Prioritize integrity over money.
+## Prioritize Integrity Over Money.
 
 Seeking justice over profit is a distinguishing characteristic of a Godly business. When we can do what it right even if it is not the best for the bottom line, we treat people the way Jesus did. 
 

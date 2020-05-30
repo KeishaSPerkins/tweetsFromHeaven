@@ -11,7 +11,7 @@ description = "I love that God gives us instruction for every little piece of li
 
 Conflict is just a part of life. We will all at one point or another need tools to resolve it. Let's have a look at some Godly principles for handling times when we don't see eye to eye.
 
-## Avoid Strife and Argument when possible
+## Avoid Strife and Argument Whenever Possible
 
 The Bible tells us that we should try to avoid having the argument in the first place. This is not the same as "going along to get along" when a real problem exists. But if there is a way to live peaceably without fighting, we should choose that option.
 
