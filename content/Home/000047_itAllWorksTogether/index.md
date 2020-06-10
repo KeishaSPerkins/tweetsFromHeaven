@@ -2,7 +2,7 @@
 showonlyimage = true
 draft = false
 image = "coverArtComingSoon_300_ppi.jpg"
-date = 2020-06-10T09:23:47-05:004
+date = 2020-06-10T09:23:47-05:04
 contenttypes = ["slides"]
 title = "It All Works Together"
 weight = 0
