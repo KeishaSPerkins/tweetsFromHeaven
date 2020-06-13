@@ -1,6 +1,6 @@
 +++
 showonlyimage = true
-draft = true
+draft = false
 contenttypes = ["slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-06-10T09:26:45-05:00
