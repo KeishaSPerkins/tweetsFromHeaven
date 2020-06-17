@@ -106,8 +106,8 @@ These instructions apply to more than business, but when applied, they defy worl
 {{< instagram B_VoUqhntZG hidecaption >}}
 <hr />
 <ol class='footnotes' id='footnotes'>
-  <li class='footnote' id='footnote-a'>Colossians 3:23, Luke 12:16-21<a class='go-back-link' href='#footnote-a-reference'>&nbsp;&#8617;&nbsp;Go Back</a></li> 
-  <li class='footnote' id='footnote-b'>Proverbs 1:7<a class='go-back-link' href='#footnote-a-reference'>&nbsp;&#8617;&nbsp;Go Back</a></li> 
+  <li class='footnote' id='footnote-a'>Colossians 3:23, Luke 12:16-21 
+  <li class='footnote' id='footnote-b'>Proverbs 1:7 
   <li class='footnote' id='footnote-c'>Ecclesiastes 4:9-12<a class='go-back-link' href='#footnote-a-reference'>&nbsp;&#8617;&nbsp;Go Back</a></li>
    <li class='footnote' id='footnote-d'>Matthew 6:31-34<a class='go-back-link' href='#footnote-a-reference'>&nbsp;&#8617;&nbsp;Go Back</a></li>
     <li class='footnote' id='footnote-e'>Isaiah 1:17 TPT<a class='go-back-link' href='#footnote-a-reference'>&nbsp;&#8617;&nbsp;Go Back</a></li>
