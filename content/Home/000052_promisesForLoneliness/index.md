@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post"]
+contenttypes = ["blog post", "slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-06-23T12:02:15-05:00
 title = "Promises For Comfort in Loneliness"
@@ -48,3 +48,5 @@ When you walk through persecution like fiery flames, you will not be burned;
 the flames will not harm you
 <p class='bible-reference'>Isaiah 43:2 TPT</p>
 </div>
+
+{{< instagram CByruJVA1fA hidecaption >}}

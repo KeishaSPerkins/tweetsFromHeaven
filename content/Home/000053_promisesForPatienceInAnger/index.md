@@ -6,7 +6,7 @@ image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-06-25T12:02:15-05:00
 title = " Bible Wisdom For Patience in Anger "
 weight = 0
-description = " "
+description = "Anger is such a powerful emotion, but learning to get control over it is invaluable to success."
 +++
 
 
