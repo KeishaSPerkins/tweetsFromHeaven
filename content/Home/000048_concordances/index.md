@@ -23,19 +23,19 @@ A concordance can help with that!
 Let's say you know there's a verse that talks about harvests, but you can't quite remember where it is or exactly how it’s worded.
 Looking up the entry for “harvest” may lead you to something that looks like this:
 
-<table style="border-spacing: 5px;border-collapse: separate;width:100%;font-family:serif;box-shadow: 1px 1px 3px gray;margin-bottom: 2rem;">
+<table style="background:#e8e3d0; max-width:350px; margin: 2rem auto; border-spacing: 5px;border-collapse: separate;width:100%;font-family:serif;box-shadow: 2px 2px 4px rgba(0,0,0,.5);">
 <tbody>
   <tr>
   <td>were still three months until <strong>h</strong>.</td>
-  <td>Am 4:7</td>
+  <td style="text-align:right;font-weight:bold;">Am 4:7</td>
 </tr>
 <tr>
   <td>The <strong>h</strong> is abundant, but the workers </td>
-  <td>Mt 9:37</td>
+  <td style="text-align:right;font-weight:bold;">Mt 9:37</td>
 </tr>
 <tr>
   <td>pray to the Lord of the <strong>h</strong> to send </td>
-  <td>Mt 9:38</td>
+  <td style="text-align:right;font-weight:bold;">Mt 9:38</td>
 </tr>
 </tbody>
 </table>
