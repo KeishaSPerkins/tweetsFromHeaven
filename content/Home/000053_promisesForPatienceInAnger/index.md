@@ -47,3 +47,5 @@ But if you have a quick temper,
 your impatience will be quickly seen by all.
 <p class='bible-reference'>Proverbs 14:29 TPT</p>
 </div>
+
+{{< instagram CB31UNjDfyz hidecaption >}}
