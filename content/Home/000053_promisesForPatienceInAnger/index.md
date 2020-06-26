@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post"]
+contenttypes = ["blog post", "slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-06-25T12:02:12-05:00
 title = " Bible Wisdom For Patience in Anger "
