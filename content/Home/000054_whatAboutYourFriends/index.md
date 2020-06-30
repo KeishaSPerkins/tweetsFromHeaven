@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = [ "blog post"]
+contenttypes = [ "blog post", "slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-06-30T13:32:26-05:00
 title = "What About Your Friends?"
@@ -70,3 +70,5 @@ What about your friends?
 
 Are your friendships built to last? Are they reciprocal and constructive? Are you paired with people who will help you succeed?
 
+
+{{< instagram CCEtQZwF5l- hidecaption >}}
