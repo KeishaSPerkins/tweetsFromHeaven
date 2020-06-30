@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post", "slides", "video"]
+contenttypes = ["blog post"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-07-02T08:07:45-05:00
 title = " Don't Rush "
