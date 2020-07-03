@@ -57,3 +57,5 @@ But the Bible tells us that God is strategic and purposeful about time. Let's se
 When we rush, we stumble. 
 
 But when we work diligently and patiently, we succeed in due time.
+
+{{< instagram CCJ23wyH7ma hidecaption >}}
