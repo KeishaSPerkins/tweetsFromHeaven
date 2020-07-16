@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
-draft = true
-contenttypes = ["slides", "blog post", "video"]
+draft = false
+contenttypes = ["slides", "blog post"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-07-14T05:57:11-05:00
 title = "The Fruit-Full Life"
@@ -37,3 +37,5 @@ Those who belong to Christ Jesus have nailed the passions and desires of their s
 <div class='bible-text'>“I am the sprouting vine and you’re my branches. As you live in union with me as your source, fruitfulness will stream from within you—but when you live separated from me you are powerless.
 <p class='bible-reference'>John 15:5 TPT</p>
 </div>
+
+{{< instagram CCowYNtjP7E hidecaption >}}

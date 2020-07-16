@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post"]
+contenttypes = ["blog post", "slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-07-09T05:49:01-05:00
 title = "Psalm 121"
@@ -30,3 +30,5 @@ He will protect you now,<br>
 and he’ll protect you forevermore!
 <p class='bible-reference'>Psalm 121 TPT</p>
 </div>
+
+{{< instagram CCb4YT6n14L hidecaption >}}
