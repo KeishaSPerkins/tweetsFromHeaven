@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post"]
+contenttypes = ["blog post", "slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-07-16T12:46:32-05:00
 title = "Bible Promises for Stability in a Shaky World"
@@ -51,3 +51,4 @@ tags=["scripture roundup", "stability", "encouragement", "promises"]
 <p class='bible-reference'>Psalm 37:23-24 NLT</p>
 </div>
 
+{{< instagram CCt57sJjlCJ hidecaption >}}
