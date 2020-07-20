@@ -1,9 +1,0 @@
-{{ define "main"}}
-    {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Section" "instagram") 12}}
-    <section class="posts-list">
-      {{range $paginator.Pages}}
-      {{ partial "instagram-post-square.html" .}}
-    {{end}}
-    </section>
-    {{ template "_internal/pagination.html" . }}
-{{end}}
