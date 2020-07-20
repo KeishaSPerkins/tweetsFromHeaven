@@ -1,19 +1,75 @@
-<section id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
-  <article class="sidebar-content">
-    <h1 class="sidebar-heading">
-      <img src="/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_72_ppi.png" alt="">
-      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-    {{ range .Site.Params.sidebarAbout }}
-      <p class="sidebar-p">{{ . | safeHTML }}</p>
-    {{ end }}
-    <ul class="sidebar-menu">
-      {{ range .Site.Params.navlinks }}
-        <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
-    {{ partial "social_buttons_in_sidebar.html" . }}
-    {{/* {{ partial "signup.html" .}} */}}
-
+{{ $related := .Site.RegularPages.RelatedIndices . "series" | last 3}}
+{{ with $related }}
+<section class="sidebar__section" id="in-this-series">
+  <h1 class="sidebar__header">Also in this Series</h1>
+  <ul class="sidebar__list">
     
-  </article>
+    {{range . }}
+      <li class="sidebar__list-item">
+        <a href="{{.Permalink}}">
+          {{ if .Resources.ByType "image" }}
+            {{ range first 1 (.Resources.ByType "image") }}
+              <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
+            {{end }}
+          {{else}}
+          {{$image := "/img/coverArtComingSoon_300_ppi.png"}}
+          <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
+          {{end}}
+        <p class="sidebar__list-item__title">{{.Title}}</p>
+    
+        </a>
+      </li>
+      {{end}}
+      {{end}}
+  </ul>
+</section>
+<section class="signup sidebar__section" id="signup">
+  {{ partial "signup-form.html" }}
+</section>
+<section class="sidebar__section" id="recent-posts">
+  <h1 class="sidebar__header">Most Recent Posts</h1>
+  <ul class="sidebar__list">
+    {{ range first 3 (where .Site.Pages "Section" "instagram")}}
+      <li class="sidebar__list-item">
+        <a href="{{.Permalink}}">
+          {{ if .Resources.ByType "image" }}
+            {{ range first 1 (.Resources.ByType "image") }}
+              <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
+            {{end }}
+          {{else}}
+          {{$image := "/img/coverArtComingSoon_300_ppi.png"}}
+          <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
+          {{end}}
+          <p class="sidebar__list-item__title">{{.Title}}</p>
+        </a>
+      </li>
+    {{end}}
+  </ul>
+</section>
+<section class="sidebar__section" id="social-links">
+  {{ partial "social-links.html"}}
+</section>
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<section class="sidebar__section" id="related-posts">
+  <h1 class="sidebar__header">Related Posts</h1>
+  <ul class="sidebar__list">   
+    {{range . }}
+      <li class="sidebar__list-item">
+        <a href="{{.Permalink}}">
+          {{ if .Resources.ByType "image" }}
+            {{ range first 1 (.Resources.ByType "image") }}
+              <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
+            {{end }}
+          {{else}}
+          {{$image := "/img/coverArtComingSoon_300_ppi.png"}}
+          <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
+          {{end}}
+        <p class="sidebar__list-item__title">{{.Title}}</p>
+    
+        </a>
+      </li>
+      {{end}}
+      {{end}}
+  </ul>
 </section>

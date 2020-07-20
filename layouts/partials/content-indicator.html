@@ -1,9 +1,0 @@
-  <ul class="content-indicators">
-  {{ with .Params.contenttypes}}
-    {{ range sort . "value" "asc"}} 
-      <li class=" content-indicator {{.}} badge ">
-        {{ . }}
-      </li> 
-    {{end}}
-  {{end}}    
-  </ul>

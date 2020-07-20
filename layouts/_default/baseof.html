@@ -1,27 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-<head>{{ partial "head.html" . }}</head>
-<body class="{{.Kind }} {{.Type}}">
-  <div id="all">
-      <div class="container-fluid">
-          <div class="row row-offcanvas row-offcanvas-left">
-              {{ partial "sidebar.html" . }}
-              {{ block "main" . }}
-              {{ end }}
-              {{ partial "footer.html" .}}
-          </div>
-      </div>
-  </div>
-  {{ partial "scripts.html" . }}
-  
-  {{ $scripts := resources.Get "js/scripts.js" | minify }}
-  <script src="{{ $scripts.Permalink }}"></script>
-  <script src="https://www.biblegateway.com/public/link-to-us/tooltips/bglinks.js" type="text/javascript"></script>
-  <script type="text/javascript">
-  BGLinks.version = "NLT";
-  BGLinks.linkVerses();
-  </script>
-  
+{{ partial "meta.html" .}}
+{{ partial "header.html" .}}
+<body class="{{.Kind}} {{.Section}}"></body>
 
+  <main id="main">
+    {{ block "main" . }}
+    {{end}}
+  </main>
+  {{ partial "footer.html" .}}
+
+
+
+<div id="size-debug">SD</div>
 </body>
-</html>

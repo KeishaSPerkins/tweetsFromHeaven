@@ -1,0 +1,72 @@
+// ========================================
+// STYLES THAT APPLY TO ALL SECTION PAGES
+// ========================================
+.section main  
+  display: grid
+  padding: 80px 20px
+  grid-gap: 20px
+  grid-template-columns: 1fr
+  width: clamp(300px, 85%, 1150px)
+  margin: auto
+
+// ========================================
+// INSTAGRAM SECTION STYLES
+// ========================================
+.instagram.section 
+  background: $purple
+  main 
+    padding: 0
+    grid-template-columns: 1fr
+    grid-gap: 0
+    padding: 60px 0 20px 0
+    width: 100%
+    .posts-list
+      display: grid
+      grid-gap: 20px
+      grid-template-columns: repeat(3, minmax(120px, 290px))
+      margin: auto
+      padding: 20px
+      .post-link
+        width: 100%
+        img
+          object-fit: fill !important
+          max-width: 100%
+          height: auto
+          display: block
+.post-link
+  text-decoration: none
+  color: $text-default-color
+  position: relative
+  .post-info
+    background: white
+    position: absolute
+    top: 0
+    bottom: 0
+    opacity: 0
+    left: 0
+    right: 0
+    font-size: 14px
+    box-sizing: border-box
+    flex-flow: column
+    padding: 1.5vw 1.5vw 0 1.5vw
+    overflow: hidden
+    .post-title
+      font-size: clamp(14px, 3vw, 2rem)
+      line-height: 1.2
+    .post-description
+      font-size: clamp(13px, 2vw, 1rem)
+      line-height: 1.2
+    .post-date
+      font-size: clamp(10px, 1.8vw, .8rem)
+      color: lighten($text-default-color, 50)
+    &:hover
+      opacity: 1
+// ----------------------------------------
+// INSTAGRAM SECTION MEDIA QUERIES
+// ----------------------------------------
+@media screen and ($small-screens)
+  .instagram.section main .posts-list
+    width: 100%
+    margin: 0
+    padding: 2px 0 2px 0
+    grid-gap: 2px

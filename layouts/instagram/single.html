@@ -1,0 +1,8 @@
+{{ define "main"}}
+{{ partial "post-info.html" .}}
+<section class="content">
+  {{ .Content }}
+ </section>
+ {{ partial "next-prev.html" .}}
+  {{ template "_internal/disqus.html" . }}
+{{end}}

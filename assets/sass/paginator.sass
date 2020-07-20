@@ -1,0 +1,27 @@
+.pagination
+  list-style: none
+  display: flex
+  grid-column: 1/-1
+  padding: 1rem 3rem
+  width: clamp(400px, 50%, 800px)
+  margin: auto
+  justify-content: space-between
+  li
+    padding: 5px 8px
+    color: white
+    line-height: 1
+    border: 2px solid transparent
+    &.disabled
+      opacity: .5
+    &.active
+      border-color: white
+    &:hover
+      background: $teal
+      border-color: $teal
+      color: white
+      a
+        color: white
+    a
+      text-decoration: none
+      font-weight: 700
+      color: white

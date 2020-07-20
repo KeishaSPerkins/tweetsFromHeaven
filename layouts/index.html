@@ -1,0 +1,29 @@
+{{ define "main"}}
+  <section id="instagram" class="home-panel instagram-section">
+    <h2 class="section-title">Latest Instagram Posts</h2>
+    <section class="instagram-posts inner-section">
+      {{ range first 7 (where .Pages "Section" "instagram").ByDate.Reverse}}
+        {{partial "instagram-post-square.html" . }}
+      {{end}}
+    </section>
+    <footer class="section-footer-links">
+      <a href="/instagram" class="button">More Posts</a>
+    </footer>
+  </section>
+  <section id="youtube" class="home-panel youtube-section">
+    <h2 class="section-title">Latest Youtube Videos</h2>
+     {{ partial "youtube-iframes.html" . }}
+    <footer class="section-footer-links">
+      <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCBYOqM9-RY9bM6bGaqt8INw" class="button">Go To Youtube</a>
+    </footer>
+  </section>
+  <section id="twitter" class="home-panel tweets-section">
+    <h2 class="section-title">Latest Tweets</h2>
+    <div class="tweets-list inner-section" id="tweets-list">
+    {{ partial "tweets-list.html"}}
+    </div>
+    <footer class="section-footer-links">
+      <a target="_blank" rel="noopener" href="https://twitter.com/tweetsfromhvn" class="button">More Tweets</a>
+    </footer>
+  </section>
+{{end}}

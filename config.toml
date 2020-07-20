@@ -1,76 +1,32 @@
-baseUrl = "https://www.tweets-from-heaven.com"
-title = "Tweets From Heaven"
-theme = "hugo-creative-portfolio-theme"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-# Enable comments by entering your Disqus shortname
+title = "My New Hugo Site"
 disqusShortname = "tweetsfromheaven"
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
-publishDir = "docs"
+
+date = ["date", "publishDate"]
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "violet"
-  description = "Dive into the Bible"
-  copyright = "&copy;2020 Tweets From Heaven"
-  sidebarAbout = [
-    "At Tweets From Heaven, we lift Jesus and He draws us near.&nbsp;<sup>(John 12:32)</sup><br><br> Tweets from Heaven is designed to make the Bible approachable and relatable in your everyday life."
-  ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  placeholderImage = "/img/coverArtComingSoon_300_ppi.png"
 
-    # Optional Matomo analytics (formerly piwik)
-      # [params.analytics.matomo]
-      #  URL = "https://stats.example.com"
-      #  ID = "42"
-      #  # Track all subdomains with "*.example.com" (Optional)
-      #  domain = "www.example.com"
-      #  # Optional integrity check hash
-      #  hash = ""
-
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = "home/"
-  home = true
-
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  # [[params.navlinks]]
-  # name = "Get in touch"
-  # url = "contact/"
-
-  [params.social]
-  # facebook      = "full page or profile url in facebook"
-  # googleplus    = "full profile url in googleplus"
-  #email         = "email@example.com"
-  twitter       = "https://twitter.com/TweetsFromHvn"
-  #linkedin      = "full profile url in linkedin"
-  #stackoverflow = "full profile url in stackoverflow"
-  instagram     = "https://www.instagram.com/tweets.from.heaven/"
-  #github        = "full profile url in github"
-  youtube       = "https://www.youtube.com/channel/UCBYOqM9-RY9bM6bGaqt8INw?view_as=subscriber"
-  #whatsapp      = "wa.me service link"
-  
-  [frontmatter]
-  date = ["date", "publishDate"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-
-  [taxonomies]
+[taxonomies]
   category = "categories"
   tag = "tags"
-  contenttype = "contenttypes"
+  series = "series"
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+  [[related.indices]]
+	  name = "series"
+	  weight = 199
+  [[related.indices]]
+	  name = "keywords"
+	  weight = 150
+	[[related.indices]]
+	  name  = "tags"
+	  weight = 200
+	[[related.indices]]
+	  name  = "date"
+	  weight = 1
+	  pattern = "2006"

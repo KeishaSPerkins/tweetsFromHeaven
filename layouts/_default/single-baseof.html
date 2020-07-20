@@ -1,0 +1,26 @@
+{{ partial "meta.html" .}}
+{{ partial "header.html" .}}
+<body class="{{.Kind}} {{.Section}}"></body>
+
+  <div class="outer-wrapper">
+    <main id="main">
+      {{ block "main" . }}
+      {{end}}
+    </main>
+    <aside class="sidebar" id="sidebar">
+      {{ partial "sidebar.html" .}}
+    </aside>
+  </div>
+  {{ partial "footer.html" .}}
+
+
+
+<div id="size-debug">SD</div>
+</body>
+
+
+
+
+
+
+
