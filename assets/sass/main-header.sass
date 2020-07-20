@@ -1,6 +1,24 @@
 // ========================================
 // MAIN HEADER
 // ========================================
+.main-header
+  background: white
+.main-header__inner-wrapper
+  max-width: $section-width
+  margin: auto
+  display: flex
+  background: white
+  align-items: center
+  justify-content: space-between
+.main-header__navs
+  background: white
+  top: 0
+  right: 0
+  left: 0
+  padding: 0 20px 
+  border-bottom: 1px solid #ddd
+  position: fixed
+  z-index: 100
 .page-info
   background-color: $teal
   // background-image: url("/img/Pattern72ppi.jpg")
@@ -28,21 +46,16 @@
     text-transform: uppercase
     text-align: center
 .main-nav
-  background: white
   height: 60px
   display: flex
   justify-content: center
   align-items: center
-  margin: 0 auto
-  position: fixed
-  z-index: 10
-  width: 100%
-  border-bottom: 1px solid #ddd
   .nav-link
     font-family: $sans-serif
     color: $text-default-color
     text-decoration: none
     display: flex
+    width: min-content
     text-transform: uppercase
     font-size: .9rem
     align-items: center
@@ -59,7 +72,28 @@
       &::after
         content: "•"
         margin: 0 1rem
-
+//-----------------------------------------
+// Social Links
+//-----------------------------------------
+.header-social-links
+  // align-text: right
+  .social-links__list
+    // height: 1rem
+    justify-content: flex-end
+    padding: 0
+    margin: 0
+  .social-links__item
+    margin: 0 .3rem
+    display: flex
+    svg
+      fill: $text-default-color 
+      height: 1.5rem
+      width: 1.5rem  
+      padding: 3px
+      &:hover
+        fill: white
+        background: $purple
+        border-radius: 50%
 // ========================================
 // MAIN HEADER ON SINGLE PAGES
 // ========================================
