@@ -7,6 +7,7 @@ date = ["date", "publishDate"]
 
 [params]
   placeholderImage = "/img/coverArtComingSoon_300_ppi.png"
+	mainLogo = "/img/TweetsFromHeaven_Logo_FullColor_ProfilePic72ppi.png"
 
 [taxonomies]
   category = "categories"

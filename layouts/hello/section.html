@@ -1,0 +1,8 @@
+{{ partial "meta.html" .}}
+<body class="{{.Kind}} {{.Section}}">
+  <img class="links-image" src='{{ .Site.Params.mainLogo }}' alt="">
+  <h1>Tweets From Heaven</h1>
+  {{.Content}}
+  {{partial "social-links.html" .}}
+{{partial "svg-sprite.html" .}}
+</body>

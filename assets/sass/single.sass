@@ -97,11 +97,14 @@
 			p
 				margin: 0
   .next-prev
-    // width: 100%
     background: none
-    display: flex
-    justify-content: space-between
-    padding: .5rem
+    display: inline-block
+    width: 100%
+    padding: 0
+    // height: min-content
+    // display: block
+    // padding: initial
+    // margin: 20px 0
     a
       display: inline-block 
       text-decoration: none
@@ -117,22 +120,20 @@
           margin: .5rem      
       &.next
         float: left
-        max-width: 40%
-        &::before
-          content:  ""
+        width: 40%
+        max-width: 30ch
       &.prev
         float: right
-        max-width: 40%
+        width: 40%
+        max-width: 30ch
         text-align: right
-        &::after
-          content:  ""
-
 // ----------------------
 // Disqus
 // ----------------------
 
 #disqus_thread, .dsq-brlink
   grid-column: 1/span 1
+  padding: 0
 
 // ----------------------
 // Footnotes

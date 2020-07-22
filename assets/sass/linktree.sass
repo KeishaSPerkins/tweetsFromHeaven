@@ -1,0 +1,51 @@
+
+.section.hello
+  display: flex
+  flex-direction: column
+  align-items: center
+  background: $purple
+  padding: 60px
+  background-image: linear-gradient(to bottom right, $purple, adjust-hue($purple, 30deg))
+  min-height: 100vh
+  .links-image
+    width: 50%
+    max-width: 130px
+    border-radius: 50%
+    margin-bottom: 1.5rem
+  h1
+    font-size: 1.1rem
+    font-weigth: bold
+    color: white
+    margin-bottom: 2rem
+  .main-links
+    display: flex
+    flex-direction: column
+    margin-bottom: 2rem
+    a
+      margin: .5rem
+      border: 2px solid white
+      padding: 1rem 0
+      width: 40vw
+      max-width: 450px
+      min-width: 20ch
+      text-align: center
+      text-decoration: none
+      color: white
+      font-weight: bold
+      &.featured
+        background: $teal
+        border-color: $teal
+      &:hover
+        border-color: transparent
+        background: white
+        color: $purple
+  .social-links__list
+    display: flex
+    justify-content: space-around
+    width: 35ch
+    box-sizing: border-box
+    padding: 0 20px
+    svg
+      width: 2.5rem
+      height: 2.5rem
+      

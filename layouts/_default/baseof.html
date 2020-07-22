@@ -1,7 +1,6 @@
 {{ partial "meta.html" .}}
 {{ partial "header.html" .}}
-<body class="{{.Kind}} {{.Section}}"></body>
-
+<body class="{{.Kind}} {{.Section}}">
   <main id="main">
     {{ block "main" . }}
     {{end}}
