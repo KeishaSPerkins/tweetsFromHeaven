@@ -9,7 +9,7 @@ weight = 0
 description = "One effect of condemnation in the life of believers is to dull our distaste for injustice and weaken our taste for what is right. The enemy knows that when God's people stand in His power and resist evil, he must flee. Don't let his lies dull your passion for justice."
 series = "Condemnation vs Conviction"
 seriesNumber = 4
-tags = ["no condemnation", "practical", "scripture breakdown", "series" ]
+tags = ["no condemnation", "practical", "scripture breakdown" ]
 +++
 
 We saw how conviction brings us life and peace while condemnation brings us regret, anxiety, and death. Let's check out two more indicators of which influence we are dealing with.

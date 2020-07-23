@@ -9,7 +9,7 @@ weight = 0
 description = "Part three of this series on condemnation versus conviction gets at the true stakes of this fight. We know the enemy's one goal for us: death and destruction. Don't let condemnation steal away your life and zeal!"
 series = "Condemnation vs Conviction"
 seriesNumber = 3
-tags = ["no condemnation", "practical", "scripture breakdown", "series" ]
+tags = ["no condemnation", "practical", "scripture breakdown" ]
 +++
 
 Previously, we saw how condemnation leads us to legalism and failure while conviction leads us to repentance and victory. Let's continue to look at these two influences and their affect on the believer.

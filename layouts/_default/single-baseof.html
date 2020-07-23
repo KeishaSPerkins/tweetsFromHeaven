@@ -1,6 +1,6 @@
 {{ partial "meta.html" .}}
 {{ partial "header.html" .}}
-<body class="{{.Kind}} {{.Section}}"></body>
+<body class='{{.Kind}} {{.Section}} {{if eq .Kind "404"}}four-oh-four{{end}}'>
 
   <div class="outer-wrapper">
     <main id="main">

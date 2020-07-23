@@ -9,7 +9,7 @@ weight = 0
 description = "How I've enjoyed this series and sharing with you! I hope you will use these tools to spot any attempt to place condemnation in your mind and heart!"
 series = "Condemnation vs Conviction"
 seriesNumber = 6
-tags = ["no condemnation", "practical", "scripture breakdown", "series", "series summary" ]
+tags = ["no condemnation", "practical", "scripture breakdown", "series summary" ]
 +++
 
 This week, we examined the differences between conviction and condemnation

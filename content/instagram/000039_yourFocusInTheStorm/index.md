@@ -9,7 +9,7 @@ weight = 0
 description = "When there are seeds of doubt in our minds, our focus can be like water feeding them to grow larger. But glory to God for giving us instruction on how to stand a trial. Be sure your focus is on good things so that your mind can be guarded in this chaotic time."
 series = "In the Storm"
 seriesNumber = 2
-tags = ["series", "practical"]
+tags = ["focus", "practical"]
 +++
 
 When we are in crisis it can be hard to keep our focus in a healthy place. If we let our thoughts run wild, our fear can overwhelm us.

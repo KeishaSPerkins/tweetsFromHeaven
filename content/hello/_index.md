@@ -3,8 +3,6 @@ title: Tweets From Heaven
 draft: true
 ---
 
-
-
 <section class="main-links">
   <a target="_blank" rel="noopener" href="#">TFH Written Posts</a>
   <a target="_blank" rel="noopener" href="#">Listen to the TFH Podcast</a>

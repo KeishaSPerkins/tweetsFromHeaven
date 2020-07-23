@@ -9,7 +9,7 @@ weight = 0
 description = "Though circumstances can seem insurmountable, we have faith and a hope in Christ. I pray that these short prayers will remind you of that hope. Pray them as many times as you need. They are effective, for His word does not return void."
 series = "In the Storm"
 seriesNumber = 3
-tags = ["series", "practical", "prayer"]
+tags = [ "practical", "prayer"]
 +++
 
 When we are in crisis circumstance can make us want to rush into action. We run forward to solve problems, forgetting that our first step should be prayer.

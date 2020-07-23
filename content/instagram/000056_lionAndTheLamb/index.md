@@ -9,7 +9,7 @@ weight = 0
 description = "Such a beautiful song, filled with promises from the One who was and is and is to come! As you sing His promises, know that He is faithful to perform them, for who can stop the Lord Almighty?"
 series = "where's that lyric?"
 seriesNumber = 3
-tags = ["series", "music"]
+tags = [ "music"]
 +++
 
 In this installment of "Where's that Lyric?" we'll look at the song "The Lion and the Lamb" by Bethel Music and Leeland.

@@ -9,7 +9,7 @@ weight = 0
 description = "It's always hard to stay level-headed in crisis. And there is no faster way for us to spread our anxieties than careless speech. As we weather this storm, we must be sure to think of the impact our words may have, even after the sky clears."
 series = "In the Storm"
 seriesNumber = 1
-tags = ["series", "practical"]
+tags = [ "practical"]
 +++
 
 When we are in crisis, our emotions can come to overtake us, and we speak rashly. 
