@@ -1,2 +1,2 @@
 [build.processing.images]
-  compress = true
+  compress = false
