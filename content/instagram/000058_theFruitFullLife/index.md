@@ -38,3 +38,5 @@ Those who belong to Christ Jesus have nailed the passions and desires of their s
 <div class='bible-text'>“I am the sprouting vine and you’re my branches. As you live in union with me as your source, fruitfulness will stream from within you—but when you live separated from me you are powerless.
 <p class='bible-reference'>John 15:5 TPT</p>
 </div>
+
+{{<instagram CCowYNtjP7E >}}

@@ -51,4 +51,4 @@ tags=["scripture roundup", "stability", "encouragement", "promises"]
 <p class='bible-reference'>Psalm 37:23-24 NLT</p>
 </div>
 
-{{< instagram CCt57sJjlCJ hidecaption >}}
+{{< instagram CCt57sJjlCJ >}}
