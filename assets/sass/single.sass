@@ -5,13 +5,13 @@
   background: #eee
 .outer-wrapper
   display: flex
+  width: 90%
   max-width: 1150px
   margin: 0 auto 20px auto
   padding-top: 80px
   display: grid
   grid-gap: 20px
   grid-template-columns: 3fr 1.5fr
-  width: clamp(300px, 90%, 1200px)
   font-size: 1.3rem
   .page-info
     min-height: 500px
@@ -23,12 +23,14 @@
       min-height: auto
   .page-title
     font-size: clamp(2rem, 4vw, 5rem)
+    width: 100%
     max-width: 800px
     padding: 0 40px
   .page-date
     font-size: .9rem
     font-weight: normal
   .post-blurb
+    width: 100%
     max-width: 600px
     font-size: 1.1rem
     margin: auto
@@ -62,6 +64,8 @@
     .post-info__date
       margin: 0
       font-size: .9rem
+    img
+      max-width: 100%
     
   iframe
     margin: auto
@@ -72,7 +76,6 @@
 			align-items: center
 		.instagram-media
 			margin: auto !important
-			max-width: 500px !important
 		.bible-text
 			background: lighten($purple, 50% )
 			padding: 15px
@@ -99,7 +102,7 @@
   .next-prev
     background: none
     display: inline-block
-    width: 100%
+    width: 90%
     padding: 0
     // height: min-content
     // display: block
@@ -129,6 +132,13 @@
         max-width: 30ch
         text-align: right
         justify-content: flex-end
+
+// ----------------------
+// Instagram
+// ----------------------
+.instagram-media
+  width: 80% !important
+  
 // ----------------------
 // Disqus
 // ----------------------
@@ -148,3 +158,22 @@
     font-size: 1rem
     .go-back-link
       color: #666666
+
+// ======================
+// Media Queries
+// ======================
+@media screen and ($large-screens)
+  .outer-wrapper
+    grid-template-columns: 1fr !important
+    grid-gap: 0
+    margin: auto
+    width: 90%
+    max-width: 90vw
+  .outer-wrapper main
+    width: 100% !important
+    box-sizing: content-box !important
+  .outer-wrapper main > *
+    padding: 2rem 1rem
+    box-sizing: content-box
+  .bible-text
+    margin: 2rem .5rem !important
