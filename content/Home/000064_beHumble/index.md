@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post", "slides"]
+contenttypes = ["blog post"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-12-01T19:04:11-06:00
 title = "Be Humble"
