@@ -1,4 +1,8 @@
 <section class="single-post-info">
   <h1 class="post-info__title">{{.Title}}</h1>
+  {{ if .Param "date" }}
   <time class="post-info__date">{{.Date.Format "Jan 2 2006"}}</time>
+  {{ else if .Param "bookclubMonth"}}
+  <p class="post-info__date">{{.Param "bookclubMonth" }} Bookclub Selection</p>
+  {{ end }}
 </section>

@@ -1,0 +1,9 @@
+{{ define "main"}}
+    {{ $paginator := .Paginate (where .Pages.ByDate.Reverse "Section" "bookclub") 3}}
+    <section class="bookclub-list">
+      {{range $paginator.Pages}}
+      {{ partial "book-item.html" .}}
+    {{end}}
+    </section>
+    {{ template "_internal/pagination.html" . }}
+{{end}}
