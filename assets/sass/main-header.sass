@@ -3,6 +3,15 @@
 // ========================================
 .main-header
   background: white
+  
+.main-header__inner-wrapper
+  max-width: $section-width
+  margin: auto
+  display: flex
+  background: white
+  align-items: center
+  justify-content: space-between
+.main-header__navs
   background: white
   top: 0
   right: 0
@@ -16,15 +25,8 @@
     top: initial
     border-top: 1px solid #dddddd
     border-bottom: 0
-.main-header__inner-wrapper
-  max-width: $section-width
-  margin: auto
-  display: flex
-  background: white
-  align-items: center
-  justify-content: space-between
-.main-header__navs
-  
+    .main-nav
+      order: 2
 .page-info
   background-color: $teal
   // background-image: url("/img/Pattern72ppi.jpg")
@@ -35,6 +37,8 @@
   justify-content: center
   align-items: center
   color: white
+  @media screen and ($small-screens)
+    padding: 60px 0
   .logo-wrap
     text-align: center
     .tweets-from-heaven-logo
