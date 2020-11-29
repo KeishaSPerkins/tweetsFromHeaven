@@ -3,14 +3,6 @@
 // ========================================
 .main-header
   background: white
-.main-header__inner-wrapper
-  max-width: $section-width
-  margin: auto
-  display: flex
-  background: white
-  align-items: center
-  justify-content: space-between
-.main-header__navs
   background: white
   top: 0
   right: 0
@@ -19,6 +11,20 @@
   border-bottom: 1px solid #ddd
   position: fixed
   z-index: 100
+  @media screen and ($small-screens)
+    bottom: 0
+    top: initial
+    border-top: 1px solid #dddddd
+    border-bottom: 0
+.main-header__inner-wrapper
+  max-width: $section-width
+  margin: auto
+  display: flex
+  background: white
+  align-items: center
+  justify-content: space-between
+.main-header__navs
+  
 .page-info
   background-color: $teal
   // background-image: url("/img/Pattern72ppi.jpg")
