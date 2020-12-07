@@ -9,11 +9,11 @@
         <a href="{{.Permalink}}">
           {{ if .Resources.ByType "image" }}
             {{ range first 1 (.Resources.ByType "image") }}
-              <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
+              <img loading="lazy"  class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
             {{end }}
           {{else}}
           {{$image := "/img/coverArtComingSoon_300_ppi.png"}}
-          <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
+          <img loading="lazy"  class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
           {{end}}
         <p class="sidebar__list-item__title">{{.Title}}</p>
     
@@ -34,11 +34,11 @@
         <a href="{{.Permalink}}">
           {{ if .Resources.ByType "image" }}
             {{ range first 1 (.Resources.ByType "image") }}
-              <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
+              <img loading="lazy"  class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
             {{end }}
           {{else}}
           {{$image := "/img/coverArtComingSoon_300_ppi.png"}}
-          <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
+          <img loading="lazy"  class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
           {{end}}
           <p class="sidebar__list-item__title">{{.Title}}</p>
         </a>
@@ -60,11 +60,11 @@
         <a href="{{.Permalink}}">
           {{ if .Resources.ByType "image" }}
             {{ range first 1 (.Resources.ByType "image") }}
-              <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
+              <img loading="lazy"  class='sidebar__list-item__image' alt='Cover art for "{{.Title}}"' src='{{ (.Fill "80x80 Center").Permalink }}'>
             {{end }}
           {{else}}
           {{$image := "/img/coverArtComingSoon_300_ppi.png"}}
-          <img class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
+          <img loading="lazy"  class='sidebar__list-item__image' alt='Cover art for "{{.Title}}" coming soon' src='{{ $image }}' >
           {{end}}
         <p class="sidebar__list-item__title">{{.Title}}</p>
     

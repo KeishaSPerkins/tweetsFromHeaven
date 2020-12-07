@@ -5,7 +5,7 @@
         {{ if .Resources.ByType "image" }}
       {{ range first 1 (.Resources.ByType "image") }}
 
-      <img class='bookcover' alt='Cover art for "{{.Title}}"'
+      <img loading="lazy"  class='bookcover' alt='Cover art for "{{.Title}}"'
       srcset='
         {{ (.Fill "320x462 Center").RelPermalink }} 320w,
         {{ (.Fill "600x866 Center").RelPermalink }} 600w,
@@ -15,7 +15,7 @@
     {{end}}
     {{else}}
     {{$placeholderImage := "/img/coverArtComingSoon_300_ppi.png"}}
-    <img alt='Cover art for "{{.Title}}" coming soon' class="bookcover" src="https://placehold.it/180x260" >
+    <img loading="lazy"  alt='Cover art for "{{.Title}}" coming soon' class="bookcover" src="https://placehold.it/180x260" >
     {{end}}
     <figcaption>Cover of <em>{{.Title}}</em> </figcaption>
       </figure>
