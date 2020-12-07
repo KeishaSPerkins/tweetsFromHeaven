@@ -1,7 +1,7 @@
 <section id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <article class="sidebar-content">
     <h1 class="sidebar-heading">
-      <img src="/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_72_ppi.png" alt="">
+      <img loading="lazy"  src="/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_72_ppi.png" alt="">
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>

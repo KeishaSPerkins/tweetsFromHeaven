@@ -16,7 +16,7 @@
                             {{ if .Resources.ByType "image" }}
                               {{ range first 1 (.Resources.ByType "image") }}
 
-                                <img class='image-responsive' alt='Cover art for "{{$pageTitle}}"'
+                                <img loading="lazy"  class='image-responsive' alt='Cover art for "{{$pageTitle}}"'
                                 srcset='
                                   {{ (.Resize "320x").RelPermalink }} 320w,
                                   {{ (.Resize "600x").RelPermalink }} 600w,
@@ -26,7 +26,7 @@
                               {{end}}
                             {{else}}
                               {{$placeholderImage := "/img/coverArtComingSoon_300_ppi.png"}}
-                              <img alt='Cover art for "{{$pageTitle}}" coming soon' class="img-responsive" src="/img/coverArtComingSoon_300_ppi.png" >
+                              <img loading="lazy"  alt='Cover art for "{{$pageTitle}}" coming soon' class="img-responsive" src="/img/coverArtComingSoon_300_ppi.png" >
                             {{end}}
                         </a>
                       {{ end }}

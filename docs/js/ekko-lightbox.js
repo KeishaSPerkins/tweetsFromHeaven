@@ -319,7 +319,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
       if ((onLoadShowImage == null) || onLoadShowImage === true) {
         img.onload = function() {
           var image;
-          image = $('<img />');
+          image = $('<img loading="lazy"  />');
           image.attr('src', img.src);
           image.addClass('img-responsive');
           _this.lightbox_body.html(image);
