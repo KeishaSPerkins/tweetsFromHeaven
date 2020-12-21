@@ -1,7 +1,7 @@
 +++
 showonlyimage = true
 draft = false
-contenttypes = ["blog post"]
+contenttypes = ["blog post", "slides"]
 image = "coverArtComingSoon_300_ppi.jpg"
 date = 2020-12-01T19:04:11-06:00
 title = "Be Humble"
@@ -38,4 +38,4 @@ But what does the Bible say about humility?
 <div class='bible-text'>True humility and fear of the LORD lead to riches, honor, and long life.
 <p class='bible-reference'>Proverbs 22:4 NLT</p>
 </div>
-{{< instagram ---- hidecaption >}}
+{{< instagram CIRWhTLIba6 hidecaption >}}
