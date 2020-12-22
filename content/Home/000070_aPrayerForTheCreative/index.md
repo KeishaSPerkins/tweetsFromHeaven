@@ -3,7 +3,7 @@ showonlyimage = true
 draft = false
 contenttypes = ["blog post"]
 image = "coverArtComingSoon_300_ppi.jpg"
-date = 2020-12-22T19:04:11-06:00
+date = 2020-12-22T19:08:11-06:00
 title = "A Prayer for the Creative"
 weight = 0
 description = "Sometimes as creatives, we can get caught up in the works of our hands. But let's take a moment to say what God says about human creativity."
@@ -27,4 +27,4 @@ Help me to create not for man, but for Your kingdom. For I know that service to 
 Amen
 <br>Colossians 3:23-25, Matthew 6:33
 
-{{< instagram ---- hidecaption >}}
+{{< instagram CJGdditnY9u hidecaption >}}
