@@ -1,0 +1,6 @@
+<div class="tags-list">
+  <strong>Related:</strong>
+  {{ range (.GetTerms "tags") }}
+        <a class="tag" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+   {{ end }}
+</div>

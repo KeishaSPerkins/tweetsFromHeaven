@@ -1,4 +1,4 @@
-{{ $related := .Site.RegularPages.RelatedIndices . "series" | last 3}}
+{{ $related := .Site.RegularPages.ByDate.RelatedIndices . "series" | last 5}}
 {{ with $related }}
 <section class="sidebar__section" id="in-this-series">
   <h1 class="sidebar__header">Also in this Series</h1>
@@ -29,7 +29,7 @@
 <section class="sidebar__section" id="recent-posts">
   <h1 class="sidebar__header">Most Recent Posts</h1>
   <ul class="sidebar__list">
-    {{ range first 3 (where .Site.Pages "Section" "instagram")}}
+    {{ range first 3 (where .Site.RegularPages "Section" "posts")}}
       <li class="sidebar__list-item">
         <a href="{{.Permalink}}">
           {{ if .Resources.ByType "image" }}
