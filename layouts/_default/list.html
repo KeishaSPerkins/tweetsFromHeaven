@@ -1,5 +1,22 @@
 {{define "main"}}
   <div class="outer-wrapper">
-    <h1 class="main-title">{{.Title}}</h1>
+    <h1 class="main-title">{{ .Title }}</h1>
+    <section class="results">
+      {{ range (.Paginate (first 12 .Pages.ByDate)).Pages }}
+      {{partial "list-card.html" .}}
+    {{end}}
+    {{ template "_internal/pagination.html" . }}
+    </section>
+    <aside class="sidebar">
+      <h1>Tweets From Heaven Topics</h1>
+        <p>Check out some of these Tweet Topics.</p>
+        <div class="tags">
+          {{ range .Site.Taxonomies.tags.ByCount }}
+            <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}&nbsp({{ .Count }})</a> 
+          {{ end }}
+        </div>
+    </aside>
   </div>
 {{end}}
+
+

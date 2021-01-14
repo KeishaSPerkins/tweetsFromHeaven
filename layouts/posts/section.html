@@ -1,6 +1,21 @@
+{{define "sub-header"}}
+<header class="section-header">
+  <section class="inner-header">
+    <h1>Tweets From Heaven Posts</h1>
+  <p>Check out some of these Tweet Topics, or browse posts in order below.</p>
+  <div class="tags">
+    {{ range first 20 .Site.Taxonomies.tags.ByCount }}
+      <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}&nbsp({{ .Count }})</a> 
+    {{ end }}
+  </div>
+  </section>
+</header>
+
+{{end}}
 {{ define "main"}}
     {{ $paginator := .Paginate (where .RegularPages.ByDate.Reverse "Section" "posts") 12}}
     <section class="posts-list">
+      
       {{range $paginator.Pages}}
       {{ partial "instagram-post-square.html" .}}
     {{end}}

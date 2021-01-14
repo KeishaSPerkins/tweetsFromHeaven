@@ -1,0 +1,26 @@
+<article class="list-card">
+  <a class="image-link" href="{{.Permalink}}">
+  {{ if .Resources.ByType "image" }}
+    {{ range first 1 (.Resources.ByType "image") }}
+
+      
+        <img loading="lazy"  class='img-responsive' alt='Cover art for "{{.Title}}"'
+      srcset='
+        {{ (.Fill "320x320 Center").RelPermalink }} 320w,
+        {{ (.Fill "600x600 Center").RelPermalink }} 600w,
+        {{ (.Fill "1200x1200 Center").RelPermalink }} 2x'
+
+      src='{{ (.Fill "600x600 Center").Permalink }}'>
+    {{end}}
+    {{else}}
+    {{$placeholderImage := "/img/coverArtComingSoon_300_ppi.png"}}
+    <img loading="lazy"  alt='Cover art for "{{.Title}}" coming soon' class="img-responsive" src="{{ .Site.Params.placeholderImage }}" >
+      
+    {{end}}
+    </a>
+    <div class="post-info">
+      <a href="{{.Permalink}}"><h3 class="post-title">{{.Title | truncate 50}}</h3></a>
+      <time class="post-date">{{.Date.Format "Mon Jan 2 2006"}}</time>     
+      <p class="post-description">{{.Description | truncate 80}}</p>
+    </div>
+</article>

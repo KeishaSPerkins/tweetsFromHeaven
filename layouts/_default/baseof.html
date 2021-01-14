@@ -1,6 +1,7 @@
 {{ partial "meta.html" .}}
 {{ partial "header.html" .}}
 <body class='{{.Kind}} {{.Section}} {{if eq .Kind "404"}}four-oh-four{{end}}'>
+  {{block "sub-header" . }}{{end}}
   <main id="main">
     {{ block "main" . }}
     {{end}}

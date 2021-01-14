@@ -153,17 +153,7 @@
 // ----------------------
 // Footnotes
 // ----------------------
-.tags-list
-  strong, .tag
-    padding: 3px 5px
-    font-size: .8rem
-    text-transform: uppercase
-    color: white !important
-    text-decoration: none
-  strong, .tag:hover, .tag:active, .tag:focus
-    background: #444
-  .tag
-    background: $teal
+
 
 
 
@@ -171,16 +161,16 @@
 // Media Queries
 // ======================
 @media screen and ($large-screens)
-  .outer-wrapper
-    grid-template-columns: 1fr !important
+  .page .outer-wrapper
+    grid-template-columns: 1fr 
     grid-gap: 0
     margin: auto
     max-width: 90vw
-  .outer-wrapper main
-    width: 100% !important
-    box-sizing: content-box !important
-  .outer-wrapper main > *
+  .page .outer-wrapper main
+    width: 100% 
+    box-sizing: content-box 
+  .page .outer-wrapper main > *
     padding: 2rem 1rem
     box-sizing: content-box
-  .bible-text
+  .page .bible-text
     margin: 2rem .5rem !important

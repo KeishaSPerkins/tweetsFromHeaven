@@ -1,0 +1,69 @@
+.term
+  .outer-wapper
+    grid-template-columns: 2fr 1fr
+  .results
+    min-height: 50vh
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-between
+    grid-column: 1 / 2
+  .main-title
+    text-transform: capitalize
+    font-size: 2.5rem
+    font-style: italic
+    grid-column: 1 / 2
+    font-weight: 500
+    padding:  0
+    width: 100%
+  .list-card
+    display: flex
+    background: white
+    width: 100%
+    margin: 10px 0
+    .post-info
+      padding: 20px
+      width: 70%
+    .post-date
+      font-size: .8rem
+    .post-description
+      font-size: 1.1rem
+      line-height: 1.6
+    .image-link
+      display: flex
+      width: 30%
+      img
+        width: 100%
+        object-fit: cover
+  .pagination
+    width: 100%
+    li.active
+      border-color: $purple
+    li a
+      color: $purple
+  .sidebar
+    background: white
+    grid-row: 1 / 3
+    grid-column: 2 / -1
+    padding: 20px
+// --------------------
+// Media Queries
+// --------------------
+
+@media screen and ($medium-screens)
+  .term
+    .outer-wrapper
+      grid-template-columns: 1fr
+      .sidebar
+        grid-column: 1 / -1
+        grid-row: 3 / auto
+      .list-card
+        flex-flow: column wrap
+        width: 47%
+        .post-info, .image-link
+          width: 100%
+@media screen and ($small-screens)
+  .term
+    .outer-wrapper
+      .list-card
+        width: 100%
+    

@@ -1,27 +1,48 @@
 // ========================================
 // STYLES THAT APPLY TO ALL SECTION PAGES
 // ========================================
-.section main  
+.section #main, .section .section-header
   display: grid
   padding: 80px 20px
   grid-gap: 20px
   grid-template-columns: 1fr
-  width: clamp(300px, 85%, 1150px)
   margin: auto
+
 
 // ========================================
 // INSTAGRAM SECTION STYLES
 // ========================================
 .posts.section 
   background: $purple
-  main 
+  .section-header
+    padding: 80px 20px 0px 20px
+    .inner-header
+      display: grid
+      grid-template-columns: 20px repeat(1, minmax(360px, 870px)) 20px 
+      // grid-template-columns: repeat(3, minmax(120px, 290px))
+      margin: auto
+      grid-row-gap: 8px
+      grid-column-gap: none
+      justify-items: center
+      grid-column: 1 / -1
+      background: white
+      margin: auto
+      & > *
+        grid-column: 2 / -2
+        padding: 0
+        margin: 0
+      &> *:first-child
+        padding-top: 20px
+      &> *:last-child
+        padding-bottom: 20px
+      h1
+        font-size: 3rem
+  #main
     padding: 0
     grid-template-columns: 1fr
     grid-gap: 0
-    padding: 60px 0 20px 0
+    padding-bottom: 20px
     width: 100%
-    @media screen and ($small-screens)
-      padding: 0
     .posts-list
       display: grid
       grid-gap: 20px
@@ -34,7 +55,8 @@
           object-fit: fill !important
           max-width: 100%
           height: auto
-          display: block
+          display: block  
+  
 .post-link
   text-decoration: none
   color: $text-default-color
@@ -67,8 +89,12 @@
 // INSTAGRAM SECTION MEDIA QUERIES
 // ----------------------------------------
 @media screen and ($small-screens)
-  .instagram.section main .posts-list
+  .posts.section #main .posts-list, .posts.section .section-header .inner-header
     width: 100%
     margin: 0
     padding: 2px 0 2px 0
     grid-gap: 2px
+  #main
+    padding: 0
+  .posts.section .section-header
+    padding: 0
