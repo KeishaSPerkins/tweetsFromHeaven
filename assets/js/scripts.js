@@ -19,3 +19,6 @@ var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponen
 // Bible Gateway Links
 BGLinks.version = "NLT";
 BGLinks.linkVerses();
+
+
+// Lunrjs

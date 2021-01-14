@@ -4,8 +4,11 @@ title = "My New Hugo Site"
 disqusShortname = "tweetsfromheaven"
 enableRobotsTXT = true
 publishDir = "docs"
-
 date = ["date", "publishDate"]
+
+[outputs]
+    home = ["HTML", "JSON"]
+    page = ["HTML"]
 
 [params]
   placeholderImage = "/img/coverArtComingSoon_300_ppi.png"
