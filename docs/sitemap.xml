@@ -542,8 +542,7 @@
   </url>
   
   <url>
-    <loc>https://festive-mcclintock-6dbef7.netlify.app/search/</loc>
-    <priority>0.1</priority>
+    <loc>https://festive-mcclintock-6dbef7.netlify.app/index.json</loc>
   </url>
   
 </urlset>

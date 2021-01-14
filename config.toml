@@ -7,7 +7,7 @@ publishDir = "docs"
 date = ["date", "publishDate"]
 
 [outputs]
-    home = ["HTML", "JSON"]
+    home = ["HTML"]
     page = ["HTML"]
 
 [params]

@@ -218,4 +218,4 @@ Disallow: /posts/000001_aportraitofgodslove/
 
 Disallow: /categories/
 
-Disallow: /search/
+Disallow: /index.json
