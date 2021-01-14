@@ -38,6 +38,10 @@
     width: 100%
     li.active
       border-color: $purple
+    li:hover
+      border-color: $teal
+      a
+        color: white
     li a
       color: $purple
   .sidebar
@@ -61,9 +65,16 @@
         width: 47%
         .post-info, .image-link
           width: 100%
-@media screen and ($small-screens)
+      .post-date
+          font-size: .5rem
+      .post-description
+        font-size: .8rem
+      .post-title
+        font-size: 1rem
+@media screen and ($extra-small-screens)
   .term
     .outer-wrapper
       .list-card
         width: 100%
+        
     
