@@ -1,4 +1,4 @@
-baseURL = "https://tweetsfromheaven.com"
+baseURL = "https://www.tweetsfromheaven.com"
 languageCode = "en-us"
 title = "My New Hugo Site"
 disqusShortname = "tweetsfromheaven"
