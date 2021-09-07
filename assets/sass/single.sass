@@ -92,35 +92,37 @@
 				margin: 0
   .next-prev
     background: none
-    display: inline-block
+    display: inline-flex
     width: 100%
-    padding: 0
+    max-width: 100%
+    justify-content: space-between
+    margin: auto
+    padding: 0 !important
     // height: min-content
     // display: block
     // padding: unset
     // margin: 20px 0
     a
-      display: inline-block 
+      display: block 
       text-decoration: none
       padding: 0 8px 
       &:hover
         background: $purple
         color: white  
       &.next, &.prev
-        display: inline-flex
+        display: flex
         align-items: center
         font-size: 1rem
+        max-width: 25ch
         & > *
           margin: .5rem      
       &.next
         float: left
         width: 40%
-        max-width: 30ch
         justify-content: flex-start
       &.prev
         float: right
         width: 40%
-        max-width: 30ch
         text-align: right
         justify-content: flex-end
 
@@ -167,7 +169,7 @@
     margin: auto
     max-width: 90vw
   .page .outer-wrapper main
-    width: 100% 
+    width: 90vw
     box-sizing: content-box 
   .page .outer-wrapper main > *
     padding: 2rem 1rem

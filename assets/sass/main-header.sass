@@ -3,6 +3,8 @@
 // ========================================
 .main-header
   background: white
+  @media screen and ($small-screens)
+    padding-top: 55px
   
 .main-header__inner-wrapper
   max-width: $section-width
@@ -21,10 +23,6 @@
   position: fixed
   z-index: 100
   @media screen and ($small-screens)
-    bottom: 0
-    top: initial
-    border-top: 1px solid #dddddd
-    border-bottom: 0
     .main-nav
       order: 2
 .page-info

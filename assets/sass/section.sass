@@ -18,7 +18,7 @@
     padding: 80px 20px 0px 20px
     .inner-header
       display: grid
-      grid-template-columns: 20px repeat(1, minmax(360px, 870px)) 20px 
+      grid-template-columns: 20px repeat(1, minmax(200, 870px)) 20px 
       // grid-template-columns: repeat(3, minmax(120px, 290px))
       margin: auto
       grid-row-gap: 8px
@@ -46,7 +46,7 @@
     .posts-list
       display: grid
       grid-gap: 20px
-      grid-template-columns: repeat(3, minmax(120px, 290px))
+      grid-template-columns: repeat(3, minmax(2vw, 33vw))
       margin: auto
       padding: 20px
       .post-link
@@ -89,11 +89,16 @@
 // INSTAGRAM SECTION MEDIA QUERIES
 // ----------------------------------------
 @media screen and ($small-screens)
-  .posts.section #main .posts-list, .posts.section .section-header .inner-header
+  .posts.section #main .posts-list, .posts.section .section-header 
     width: 100%
     margin: 0
     padding: 2px 0 2px 0
     grid-gap: 2px
+  .posts.section .inner-header
+    padding: 1rem
+  .pagination
+    padding: 1rem 0
+    width: 90vw
   #main
     padding: 0
   .posts.section .section-header
