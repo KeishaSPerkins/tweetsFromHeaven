@@ -7,13 +7,14 @@
   <title>{{.Title}} {{if .IsPage}}| Tweets From Heaven{{end}}</title>
 
   <meta property="og:title" content="{{.Title}}" />
-  <meta property="og:type" content="{{if eq .Section `posts`}}Article{{end}}" />
+  <meta property="og:type" content="{{if .IsHome}}Website{{end}}{{if eq .Section `posts`}}Article{{end}}" />
   <meta property="og:site_name" content="Tweets From Heaven" />
   <meta property="og:description" content="{{.Description}}" />
   <meta property="og:url" content="{{.Permalink}}" /> {{ if .Resources.ByType `image` }}
   <meta property="og:image" content="{{ range first 1 (.Resources.ByType `image`) }}{{.Permalink}}{{end}}" />{{else}}
   <meta property="og:image" content="img/TweetsFromHeaven_Logo_FullColor_ProfilePic72ppi.png">{{end}}
-  
+  <meta property="og:image:alt" content="{{.Title}} Cover Image" /> 
+
   <link rel="shortcut icon" type="image/jpg" href="../favicon.ico"/>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet"> 
   {{ $options := (dict "outputStyle" "compressed" "minify" true)}}
