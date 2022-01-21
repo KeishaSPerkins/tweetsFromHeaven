@@ -1,6 +1,6 @@
 baseURL = "https://www.tweetsfromheaven.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Tweets From Heaven"
 disqusShortname = "tweetsfromheaven"
 enableRobotsTXT = true
 publishDir = "docs"

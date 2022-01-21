@@ -9,5 +9,11 @@
       ]
     }
   ],
-  "frontMatter.dashboard.openOnStart": false
+  "frontMatter.dashboard.openOnStart": false,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "TFW Posts",
+      "path": "[[workspace]]/content/posts"
+    }
+  ]
 }
