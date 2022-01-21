@@ -4,7 +4,6 @@ title = "Tweets From Heaven"
 disqusShortname = "tweetsfromheaven"
 enableRobotsTXT = true
 publishDir = "docs"
-description = "When we lift Jesus, He draws us near"
 date = ["date", "publishDate"]
 
 [outputs]
@@ -13,7 +12,10 @@ date = ["date", "publishDate"]
 
 [params]
   placeholderImage = "/img/coverArtComingSoon_300_ppi.png"
-	mainLogo = "/img/TweetsFromHeaven_Logo_FullColor_ProfilePic72ppi.png"
+	mainLogo = "/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_300_ppi.png"
+	description = "When we lift Jesus, He draws us near."
+	author = "Keisha S Perkins"
+
 
 [taxonomies]
   category = "categories"

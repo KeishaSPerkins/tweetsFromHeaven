@@ -9,10 +9,10 @@
   <meta property="og:title" content="{{.Title}}" />
   <meta property="og:type" content="{{if .IsHome}}Website{{end}}{{if eq .Section `posts`}}article{{end}}" />
   <meta property="og:site_name" content="Tweets From Heaven" />
-  <meta property="og:description" content="{{.Description}}" />
+  <meta property="og:description" content='{{if isset .Params `description`}}{{.Description}}{{else}}{{.Site.Params.description}}{{end}}' />
   <meta property="og:url" content="{{.Permalink}}" /> {{ if .Resources.ByType `image` }}
   <meta property="og:image" content="{{ range first 1 (.Resources.ByType `image`) }}{{.Permalink}}{{end}}" />{{else}}
-  <meta property="og:image" content="{{.Site.BaseURL}}/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_300_ppi.png">{{end}}
+  <meta property="og:image" content="{{.Site.Params.mainLogo}}">{{end}}
   <meta property="og:image:alt" content="{{.Title}} Cover Image" /> 
   <meta property="article:published_time" content="{{.Date}}" />
   <!-- Twitter Meta -->
@@ -20,17 +20,12 @@
   <meta name="twitter:site" content="@TweetsFromHvn">
   <meta name="twitter:creator" content="@TweetsFromHvn">
   <meta name="twitter:title" content="{{.Title}}">
-  <meta name="twitter:description" content="{{.Description}}">{{ if .Resources.ByType `image` }}
+  <meta name="twitter:description" content="{{if isset .Params `description`}}{{.Description}}{{else}}{{.Site.Params.description}}{{end}}">{{ if .Resources.ByType `image` }}
   <meta name="twitter:image" content="{{ range first 1 (.Resources.ByType `image`) }}{{.Permalink}}{{end}}">{{else}}
-  <meta name="twitter:image" content="{{.Site.BaseURL}}/img/TweetsFromHeaven_Logo_FullColor_ProfilePic_300_ppi.png">{{end}}
+  <meta name="twitter:image" content="{{.Site.Params.mainLogo}}">{{end}}
   <!-- Pintrest Rich Pins -->
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{.Title}}" />
-  <meta property="og:description" content='{{.Description}}' />
-  <meta property="og:url" content="{{.Permalink}}" />
-  <meta property="og:site_name" content="Tweets From Heaven" />
   <meta property="article:published_time" content="{{.Date}}" />
-  <meta property="article:author" content="{{.Params.authors}}" />
+  <meta property="article:author" content="{{if isset .Params `authors`}}{{.Params.authors}}{{else}}{{.Site.Params.Author}}{{end}}" />
 
 
 
