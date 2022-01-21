@@ -7,7 +7,7 @@
   <title>{{.Title}} {{if .IsPage}}| Tweets From Heaven{{end}}</title>
   <!-- Open Graph Meta -->
   <meta property="og:title" content="{{.Title}}" />
-  <meta property="og:type" content="{{if .IsHome}}Website{{end}}{{if eq .Section `posts`}}article{{end}}" />
+  <meta property="og:type" content="{{if .IsHome}}website{{end}}{{if eq .Section `posts`}}article{{end}}" />
   <meta property="og:site_name" content="Tweets From Heaven" />
   <meta property="og:description" content='{{if isset .Params `description`}}{{.Description}}{{else}}{{.Site.Params.description}}{{end}}' />
   <meta property="og:url" content="{{.Permalink}}" /> {{ if .Resources.ByType `image` }}
