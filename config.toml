@@ -4,6 +4,7 @@ title = "Tweets From Heaven"
 disqusShortname = "tweetsfromheaven"
 enableRobotsTXT = true
 publishDir = "docs"
+description = "When we lift Jesus, He draws us near"
 date = ["date", "publishDate"]
 
 [outputs]
